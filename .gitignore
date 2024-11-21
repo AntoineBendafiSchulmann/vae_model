@@ -1,0 +1,34 @@
+#dossier des environnements virtuels
+environments/
+
+# Dossiers de logs
+logs/
+*.log
+
+# Fichiers générés par Python
+*.pyc
+__pycache__/
+
+# Données volumineuses ou temporaires
+data/
+*.h5
+*.onnx
+*.tar.gz
+*.zip
+*.npz
+
+# Images d'entrée et de sortie
+app/models/static/input_images/
+app/models/static/output_images/
+
+# Notebooks temporaires
+*.ipynb_checkpoints
+
+# IDE / Éditeurs
+.vscode/
+.idea/
+
+# Configurations spécifiques à l'utilisateur
+*.DS_Store
+
+
